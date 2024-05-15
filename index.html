@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess Number</title>
+  </head>
+  <body>
+    <!-- Head line -->
+    <header>
+      <h1 class="headline">Guess My Number !</h1>
+      <p class="between">(Between 13 and 33)</p>
+      <button class="btn again">Again</button>
+      <div class="number">?</div>
+    </header>
+    <!-- Game side -->
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">13</span></p>
+        <p class="label-highscore">
+          🏆 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <!-- Game Logic JS-->
+    <script src="script.js"></script>
+  </body>
+</html>
